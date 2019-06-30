@@ -8,7 +8,11 @@ for example in base-10 pns each digit contains values from 0 to 9)
 BigInt is array of 64 unsigned integers (32 bits) 
 
    [63]         [62]          ...          [2]       [1]        [0]      array that contains BigInt 
+	
 2047-2016    2015-1984        ...         95-64     63-32      31-0      bits positions of BigInt 
+
+
+
 
 
 1) переведення малих констант у формат великого числа (зокрема, 0 та 1);
@@ -89,7 +93,7 @@ additionModN() // Res = A+B mod N
 
 substractionModN() // Res = A - B mod N
 
-multiplicationModN() // Res = A * B mod N
+multiplicationModN() // Res = A * B mod N  			
 
 
 
